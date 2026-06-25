@@ -3,4 +3,6 @@ spring:
     name: climalert
 
 rest-weather:
-  base-url: https://www.weatherapi.com/
+  base-url: http://api.weatherapi.com/v1
+  key: ${WEATHER_API_KEY}
+  location: Buenos Aires

@@ -9,4 +9,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 public class RestWeatherProperties {
   private String baseUrl;
+  private String key;
+  private String location;
 }
