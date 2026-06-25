@@ -1,3 +1,6 @@
 spring:
   application:
     name: climalert
+
+rest-weather:
+  base-url: https://www.weatherapi.com/
